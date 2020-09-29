@@ -1,0 +1,26 @@
+.array-container {
+  position: fixed;
+  bottom: 75px;
+  left: 5px;
+  right: 5px;
+}
+
+.array-bar {
+  background-color:darkturquoise;
+  width: 10px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.buttons {
+  position: fixed;
+  bottom: 17px;
+  left: 100px;
+  right: 100px;
+
+}
+
+body{
+  background-color: darkslategray;
+}
+
