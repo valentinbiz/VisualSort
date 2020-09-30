@@ -76,9 +76,9 @@ export default class SortingVisualizer extends React.Component {
             }}></div>
         ))}
         <div className="buttons">
-        <button className = "f6 grow  br-pill ph3 pv2 mb2 dib white bg-dark-gray ma3" onClick={() => window.location.reload()}> Generate New Array </button>
         <button className = "f6 grow  br-pill ph3 pv2 mb2 dib white bg-dark-gray ma3" onClick={() => this.mergeSort()}>Merge Sort</button>
         <button className = "f6 grow  br-pill ph3 pv2 mb2 dib white bg-dark-gray ma3" onClick={() => this.insertionSort()}>Insertion Sort</button>
+        <button className = "f6 grow  br-pill ph3 pv2 mb2 dib dark-frey bg-white ma3" onClick={() => window.location.reload()}> Generate New Array </button>
         <button className = "f6 grow  br-pill ph3 pv2 mb2 dib white bg-dark-gray ma3" onClick={() => this.selectionSort()}>Selection Sort</button>
         <button className = "f6 grow  br-pill ph3 pv2 mb2 dib white bg-dark-gray ma3" onClick={() => this.bubbleSort()}>Bubble Sort</button>
         </div>
@@ -117,7 +117,7 @@ function animateAlgorithm(animations, speed) {
   }
 }
 function mergeNotification() {
-  toast.info(<div>Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945. 
+  toast.dark(<div>Merge sort is a divide and conquer algorithm that was invented by John von Neumann in 1945. 
  It divides input array in two halves, calls itself for the two halves and then merges the two sorted halves.
 
  Time Complexity: Θ(n log(n));
@@ -134,7 +134,7 @@ function mergeNotification() {
 }
 
 function insertionAnimation() {
-  toast.info(<div>Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.  At each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain.
+  toast.dark(<div>Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time.  At each iteration, insertion sort removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain.
   
   Time Complexity: Θ(n^2);
   Auxiliary Space: O(1);
@@ -149,7 +149,7 @@ function insertionAnimation() {
   });
 }
 function selectionAnimation() {
-  toast.info(<div>The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
+  toast.dark(<div>The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.
         
   Time Complexity: Θ(n^2);
   Auxiliary Space: O(1);
@@ -164,7 +164,7 @@ function selectionAnimation() {
   });
 }
 function bubbleAnimation() {
-  toast.info(<div>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+  toast.dark(<div>Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
     
   Time Complexity: Θ(n^2);
   Auxiliary Space: O(1);
