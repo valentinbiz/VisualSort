@@ -1,9 +1,11 @@
-# The project is available at https://visualsorting.herokuapp.com
+# VisualSort
 
-# VisualSort is an application to help you better understand some of the sosrting algorithms. 
+The project is available at https://visualsorting.herokuapp.com
 
-# This is a work in progress with more algorithms and features that will be added in the future. 
+ VisualSort is an application to help you better understand some of the sosrting algorithms. 
 
-# Application built with React. After cloning the repository run 'npm install' and 'npm start' to run it locally. 
+ This is a work in progress with more algorithms and features that will be added in the future. 
 
-## Feel free to clone this project and improve it or just play around. Enjoy! 
+ Application built with React. After cloning the repository run 'npm install' and 'npm start' to run it locally. 
+
+ Feel free to clone this project and improve it or just play around. Enjoy! 
